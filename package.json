@@ -1,0 +1,40 @@
+{
+  "name": "shark-transformer-zopfli",
+  "version": "0.0.1",
+  "description": "shark-transformer-zopfli ========================",
+  "main": "lib/transformer-zopfli.js",
+  "scripts": {
+	  "test": "node_modules/.bin/mocha --harmony ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shark-js/shark-transformer-zopfli.git"
+  },
+  "author": "Vadim Goncharov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shark-js/shark-transformer-zopfli/issues"
+  },
+  "homepage": "https://github.com/shark-js/shark-transformer-zopfli",
+  "engines": {
+    "node": ">=0.11.14 <0.12",
+    "npm": ">=2.1.5"
+  },
+  "engineStrict": true,
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "co-fs-extra": "git://github.com/shark-js/co-fs-extra",
+    "co-mocha": "^1.1.0",
+    "extsprintf": "^1.2.1",
+    "mocha": "^2.0.1",
+    "shark-logger": "git://github.com/shark-js/shark-logger"
+  },
+  "dependencies": {
+    "co": "^4.0.0",
+    "node-zopfli": "^1.2.0",
+    "node.extend": "^1.1.3",
+    "shark-transformer": "git://github.com/shark-js/shark-transformer",
+    "shark-tree": "git://github.com/shark-js/shark-tree",
+    "verror": "^1.6.0"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "shark-transformer-zopfli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "shark-transformer-zopfli",
   "main": "lib/transformer-zopfli.js",
   "scripts": {

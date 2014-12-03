@@ -1,10 +1,10 @@
 {
   "name": "shark-transformer-zopfli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "shark-transformer-zopfli",
   "main": "lib/transformer-zopfli.js",
   "scripts": {
-	  "test": "node_modules/.bin/mocha --harmony ./test"
+    "test": "node_modules/.bin/mocha --harmony ./test"
   },
   "repository": {
     "type": "git",

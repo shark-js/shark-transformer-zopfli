@@ -17,24 +17,30 @@
   },
   "homepage": "https://github.com/shark-js/shark-transformer-zopfli",
   "engines": {
-    "node": ">=0.11.14 <0.12",
+    "node": ">=0.11.14",
     "npm": ">=2.1.5"
   },
   "engineStrict": true,
   "devDependencies": {
     "chai": "^1.9.2",
-    "co-fs-extra": "git://github.com/shark-js/co-fs-extra",
+    "co-fs-extra": "^1.0.1",
     "co-mocha": "^1.1.0",
     "extsprintf": "^1.2.1",
     "mocha": "^2.0.1",
-    "shark-logger": "*"
+    "shark-logger": "0.1.0"
   },
   "dependencies": {
     "co": "^4.0.0",
     "node-zopfli": "^1.2.0",
     "node.extend": "^1.1.3",
-    "shark-transformer": "*",
-    "shark-tree": "*",
+    "shark-transformer": "0.1.0",
+    "shark-tree": "0.1.0",
     "verror": "^1.6.0"
-  }
+  },
+  "files": [
+    "lib",
+    "test",
+    "LICENCE",
+    "README.md"
+  ]
 }
